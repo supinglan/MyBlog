@@ -1,0 +1,21 @@
+site_name: 苏平岚
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+repo_url: https://github.com/supinglan/MyBlog
+copyright: Copyright  © 2024 苏平岚
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/supinglan
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
